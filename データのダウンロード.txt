@@ -4,13 +4,13 @@
 
 次のURLをブラウザで開きダウンロードして下さい。
 Kaggleのサインインが必要な場合はしてください。
-https://www.kaggle.com/datasets/chetankv/dogs-cats-images
+https://www.kaggle.com/datasets/pavansanagapati/images-dataset
 ダウンロードフォルダにできた　archive.zip　を
-TensorFlow2フォルダに移動して下さい。
+yolo7フォルダに移動して下さい。
 
-ターミナルを起動して、TensorFlow2フォルダに移動して
+ターミナルを起動して、yolo7フォルダに移動して
 unzip archive.zip として、解凍して下さい。
-dog vs cat/data というフォルダができます。
+data というフォルダができます。
 
 その中に　写真が入っています。
 
