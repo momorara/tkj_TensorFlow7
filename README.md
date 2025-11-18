@@ -16,7 +16,7 @@ git clone https://github.com/momorara/tkj_TensorFlow2 tf2<br>
 
 <h4><<ライセンス>></h4>
 TensorFlowについては、ライブラリ制作者のライセンス規定を参照ください。<br>
-GNU Affero General Public License v3.0<br>
+Apache License 2.0です。<br>
 使用するデータのライセンスは<br>
 CC0 1.0 Universal<br>
 です。<br>
