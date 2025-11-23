@@ -1,0 +1,3 @@
+# pip を更新したのち　tensorflowを入れてみてください。
+pip install --upgrade pip
+pip install tensorflow

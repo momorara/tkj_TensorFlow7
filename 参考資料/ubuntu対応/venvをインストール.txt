@@ -1,0 +1,4 @@
+ubuntuでは、標準ではvenvが使えないようです。
+
+sudo apt update
+sudo apt install -y python3-venv

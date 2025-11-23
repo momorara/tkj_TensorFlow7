@@ -1,0 +1,31 @@
+Ubuntuバージョンを確認
+
+lsb_release -r
+
+システムが古いとpythonも古いためultralyticsがインストールできない
+
+
+Ubuntu 24.04 LTSが最新(2025年現在)
+
+一応　22.04　でultralyticsインストールできるようです。
+
+古いバージョンから一気にUbuntu 24.04 LTSへはバージョンアップできない。
+
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+
+・sudo do-release-upgrade　
+1つ飛ばしごとに段階的にアップグレードしていく
+時間がかかるし、リスクもある
+
+
+
+・クリーンインストールが良い
+クリーンインストール手順
+・すべてのデータを外部ドライブにバックアップします。
+・Ubuntuの公式ウェブサイトからUbuntu 24.04 LTSのISOイメージをダウンロードします。
+・USBメモリにブート可能なインストールメディアを作成します。
+・PCを再起動し、作成したUSBから起動します。
+・インストール時に「ディスクを消去してUbuntuをインストール」を選択します。

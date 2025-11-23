@@ -1,0 +1,45 @@
+pyenvのインストール
+
+・仮想環境から抜ける
+・ホームディレクトリに移動
+
+
+以下のコマンドを順番に貼り付けてください。
+
+【ステップ1】必要なパッケージを入れる
+sudo apt update
+sudo apt install -y build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev \
+liblzma-dev git
+
+【ステップ2】pyenv 本体のインストール
+curl https://pyenv.run | bash
+
+成功すると、ホームディレクトリに ~/.pyenv ができます。
+
+【ステップ3】PATH を通す（重要）
+
+端末は bash なので .bashrc に設定を書き込みます。
+
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+source ~/.bashrc
+
+【ステップ4】確認
+pyenv --version
+
+例：pyenv 2.4.0
+
+
+こうなれば成功です。
+
+
+【ステップ5】Python 3.11.9 をインストール
+
+pyenv install 3.11.9
+pyenv local 3.11.9
+
+python3.11.9  -m   venv   V_yolo  --system-site-packages
+source   V_yolo/bin/activate
