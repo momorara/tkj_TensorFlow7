@@ -19,7 +19,7 @@ CATEGORIES = ['bike', 'cars', 'cats', 'dogs', 'flowers', 'horses', 'human']
 # モデルの入力サイズ（学習時と同じにする）
 TARGET_SIZE = (128, 128)
 # 学習済みモデルの読み込み
-model = load_model('7class_cnn.h5')
+model = load_model('7class_cnn.keras')
 
 # 推論対象フォルダ（valデータセットのルート）
 base_dir = 'dataset_tvr/images/val'

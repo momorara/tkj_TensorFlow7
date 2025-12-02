@@ -135,7 +135,7 @@ model.summary()
 # 4. 学習
 # -----------------------------------------
 
-epochs = 2 
+epochs = 10 
 
 history = model.fit(
     train_generator,
@@ -159,5 +159,5 @@ print("学習履歴を training_history_7class.csv に保存しました。")
 # -----------------------------------------
 # 6. 学習済みモデルの保存
 # -----------------------------------------
-model.save('7class_cnn.h5')
-print("モデル保存完了: 7class_cnn.h5")
+model.save('7class_cnn.keras')
+print("モデル保存完了: 7class_cnn.keras")
