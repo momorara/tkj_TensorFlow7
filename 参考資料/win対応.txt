@@ -1,0 +1,26 @@
+基本的にwinでも動作しますが
+
+winの場合コマンドプロンプトのコマンドが違います。
+
+Linux ls --> dir
+
+あと、ふるいCPUだとAVX2 に対応していない場合、
+pip install "polars[rtcompat]"
+として、AVX2を使わない設定にする必要があったりします。
+
+win10でtensorflowを使うためにはpython 3.10　が必要です。
+
+OS と　python tensorflow　のバージョンの整合性を確認しましょう。
+
+DLLエラーになる場合は、
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+をインストール
+
+
+仮想環境構築
+
+python3.10 -m venv V_tf
+
+V_tf\Scripts\activate
+
+deactivate
