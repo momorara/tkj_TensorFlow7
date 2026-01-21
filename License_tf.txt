@@ -1,0 +1,23 @@
+本教材自体のライセンスについて
+Copyright (c) 2026 Takanobu Kawabata
+All rights reserved.
+
+
+・TensorFlowおよびデータについて
+
+本教材では TensorFlow を使用しています。
+This material uses TensorFlow.
+TensorFlow is licensed under the Apache License 2.0.
+TensorFlow itself is not distributed with this material.
+
+学習済みモデルは教材に含まれていません。
+利用者が教材の手順に従って作成します。
+Pre-trained models are not included in the teaching materials.
+Users must create them by following the instructions in the teaching materials.
+
+
+The data is licensed under CC0 and is listed separately in the data download instructions.
+データについては、CC0、Source: Kaggle
+データダウンロード手順に個別に表示しています。
+
+
